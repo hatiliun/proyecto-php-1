@@ -43,6 +43,7 @@
         <hgroup>
             <h3> <?= $data["title"]; ?>  Se estrena en: <?= $data["days_until"]; ?> </h3>
             <p> Fecha de estreno: <?= $data["release_date"]; ?> </p>
+            <p> Y </p>
             <p> La siguiente pelicula es: <?= $data["following_production"]["title"] ; ?> </p>
 
         </hgroup>
